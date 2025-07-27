@@ -9,4 +9,4 @@ def generative_chatbot(user_input):
     return response[0]['generated_text'].replace(prompt, "").strip()
 
 # Example usage
-print(generative_chatbot("Your replies don't make sense you idiot!"))
+print(generative_chatbot("Your replies don't make sense!"))
